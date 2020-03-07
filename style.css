@@ -1,0 +1,257 @@
+@import "https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap";
+* {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+h1 {
+	padding: 40px;
+}
+
+body{
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+}
+
+.btext{
+    color: #f9f3f4;
+    position: absolute;
+    text-align: center;
+    /* top: 2%; */
+    width: 100%;
+    line-height: 0.4em;
+}
+
+/* h1{
+		font-size: 42px;
+		line-height: 52px;
+} */
+
+.btn{
+    color: #fff;
+    text-decoration: none;
+    border: #ccc 1px solid;
+    padding: 10px 15px;
+    border-radius: 8px;
+    line-height: 4em;
+}
+
+.btn:hover{
+    color: #b19295;
+    border: #fff 1px solid;
+}
+
+#particles-js{
+    background-image: url('image1.jpg');
+	height: 210vh;
+	overflow: hidden;
+    position: relative;
+}
+
+/* ====== HEADER ====== */
+header {
+	border-top-width: 5px;
+	padding: 32px 5px;
+	border-bottom: 1px solid #333;
+	background: rgba(0, 0, 0, 0.288);
+}
+
+header div {
+	text-align: center;
+}
+
+header div a {
+	color: white;
+	font-size: 18px;
+	margin: 0 16px;
+	padding-top: 3px;
+	text-decoration: none;
+}
+
+header div a:hover {
+	color: #50fa7b;
+	transition: color 200ms;
+}
+
+/* ====== WRAPPER ====== */
+#wrapper {
+	text-align: center;
+	padding: 32px;
+}
+
+#wrapper img {
+	border-radius: 100px 10px;
+	/* border-radius: 50%; */
+	/* border: 1px solid #ffffff; */
+	margin-bottom: 32px;
+
+	/* Tamanho da imagem */
+	max-width:200px;
+	max-height:200px;
+	width: auto;
+	height: auto;
+}
+
+#wrapper h1 {
+	font-size: 25px;
+	line-height: 10px;
+}
+
+#wrapper h2 {
+	font-size: 18px;
+	line-height: 82px;
+}
+
+#wrapper p {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+.apresentacao {
+	background-color: rgba(255, 255, 255, 0.856);
+	color: #333;
+	text-align: justify;
+	padding: 3%;
+}
+
+/* ====== CADS ====== */
+.cards {
+	max-width: 900px;
+	margin: 0 auto;
+	/* border-radius: 100px 10px; */
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+}
+
+/* .card {
+	color: white;
+} */
+
+.card p {
+	line-height: 20px;
+}
+
+.card__image-container img {
+	width: 100%;
+}
+
+.card__content  {
+	padding: 24px;
+	padding-bottom: 100px;
+	text-decoration: none;
+}
+.card__content a {
+	text-decoration: none;
+	color: #f54444bb;
+	text-decoration: none;
+}
+
+/* ==== MODAL ==== */
+.modal-overlay {
+	background-color: rgba(0, 0, 0, 0.7);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.modal {
+	background-color: rgba(255, 255, 255, 0.637);
+	width: 90%;
+	height: 90%;
+	margin: 5vh auto;
+	position: relative;
+}
+
+.modal .close-modal {
+	color: black;
+	position: absolute;
+	right: 8px;
+	top: 8px;
+	cursor: pointer;
+}
+
+/* ==== MODAL.ACTIVE ==== */
+.modal-overlay.active{
+	opacity: 1;
+	visibility: visible;
+}
+
+iframe {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 5%;
+	right: 1px;
+}
+
+/* ====== FOOTER ====== */
+#links-footer a {
+	margin-top: 20%;
+}
+#links-footer a {
+	margin-top: 20%;
+}
+/* git */
+.fa-github {
+	font-size:48px;
+	color:#50fa7b;
+}
+
+.fa-github:hover {
+	font-size:48px;
+	color: #b2f3c2;
+}
+/* instgram */
+.fa-instagram {
+	font-size:48px;
+	color:#50fa7b;
+}
+
+.fa-instagram:hover {
+	font-size:48px;
+	color: #b2f3c2;
+}
+/* facebook */
+.fa-facebook {
+	font-size:48px;
+	color:#50fa7b;
+}
+
+.fa-facebook:hover {
+	font-size:48px;
+	color: #b2f3c2;
+}
+/* youtube */
+.fa-youtube {
+	font-size:48px;
+	color:#50fa7b;
+}
+
+.fa-youtube:hover {
+	font-size:48px;
+	color: #b2f3c2;
+}
+
+/* ====== LINKS ====== */
+.links {
+	text-align: center;
+}
+
+.links a {
+	color: white;
+	font-size: 18px;
+	margin: 0 20px;
+	padding-top: 3px;
+	text-decoration: none;
+}
+
+.links a:hover {
+	transition: color 200ms;
+
+}
